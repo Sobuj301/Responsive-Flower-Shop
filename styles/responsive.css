@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        padding: 20px 20px 0px 20px;
+    }
+    .banner-text{
+        width: 100%;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .banner-text{
+        width: 100%;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+}
