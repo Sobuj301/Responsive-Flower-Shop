@@ -11,6 +11,17 @@
         width: 100%;
     }
 
+    .featured{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .flower-section{
+        width: 100%;
+    }
+    .featured .featured-content .flower-img{
+        height: 400px;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -24,5 +35,10 @@
 
     .banner-img{
         width: 100%;
+    }
+    .featured{
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
     }
 }
