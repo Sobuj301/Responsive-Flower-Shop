@@ -15,7 +15,7 @@
         flex-direction: column;
         padding: 30px;
     }
-    .flower-section{
+    .section-heading{
         width: 100%;
     }
     .featured .featured-content .flower-img{
@@ -39,6 +39,28 @@
     .hot-deal-img{
         width: 100%;
     }
+    .instagram-content{
+        grid-template-columns:1fr;
+        padding: 10px;
+        
+    }
+    .latest-deal{
+        margin: 10px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .latest-deal input[type="text"]{
+        width:100%;
+    }
+    .footer{
+        margin: 20px 10px 0px 10px ;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .footer .footer-description{
+        width: 100%;
+    }
 
 }
 
@@ -58,5 +80,18 @@
         flex-direction: column;
         padding: 30px;
         align-items: center;
+    }
+    .instagram-content{
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+    }
+    .latest-deal{
+        margin:10px;
+      
+    }
+    .footer{
+        margin: 20px 5px 0px 5px;
+        padding: 20px;
+        border-radius: 8px;
     }
 }

@@ -48,7 +48,16 @@
     margin-top: 10px;
 }
 
+.section-heading {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
 /* End Share */
+
+/* header section Design */
 
 .header {
     background-color: rgba(229, 84, 115, 0.1);
@@ -87,19 +96,14 @@
     object-fit: cover;
 }
 
+/* end header section */
+
 /* featured section */
 
-
-.featured-section {
+.featured-section, .instagram {
     margin-top: 60px;
 }
 
-.flower-section {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
-}
 
 .featured {
     display: flex;
@@ -186,5 +190,82 @@
     object-fit: contain;
 }
 
+
+/* instagram section design */
+.instagram-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.instagram-content img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* latest deal style implement */
+
+.latest-deal{
+    border-radius: 8px;
+    margin-top: 100px;
+    padding: 100px;
+    text-align: center;
+    background-image: url("../Asset/Rectangle\ 9.png");
+}
+.latest-deal *{
+    margin-bottom: 10px;
+}
+
+.latest-deal input[type="text"]{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.latest-deal input[type="submit"]{
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: none;
+    margin-left: 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #111010;
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    font-weight: 800;
+    font-size: 3rem;
+    color: #E55473;
+}
+.footer-title #shop{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.footer .footer-description{
+    text-align: center;
+    width: 700px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFFFFF ;
+}
+
+.footer *{
+    margin-bottom: 20px;
+}
 
 
